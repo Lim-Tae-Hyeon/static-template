@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>html테스트</title>
+  </head>
+  <body>
+    <div>
+      <h2>작은방</h2>
+      <div class="sel_month">
+        <button type="button" class="ico_prev">이전</button>
+        <strong>2022년 8월</strong>
+        <button type="button" class="ico_prev">다음</button>
+      </div>
+      <div class="sel_date">
+        <button type="button">
+          <span>월</span><span>8</span>
+        </button>
+        <button type="button">
+          <span>화</span><span>9</span>
+        </button>
+        <button type="button">
+          <span>수</span><span>10</span>
+        </button>
+        <button type="button">
+          <span>목</span><span>11</span>
+        </button>
+        <button type="button" class="active">
+          <span>금</span><span>12</span>
+        </button>
+        <button type="button" disabled>
+          <span>토</span><span>13</span>
+        </button>
+        <button type="button" disabled>
+          <span>일</span><span>14</span>
+        </button>
+      </div>
+      <div class="wrap_state">
+        <a href=""><span>감지</span><strong>움직임,소리</strong></a>
+        <a href=""><span>감지</span><strong>움직임,소리</strong></a>
+        <button type="button" class="ico_del">삭제</button>
+      </div>
+      <div class="nodata">검색된 데이터가 없습니다.</div>
+    </div>
+  </body>
+</html>
